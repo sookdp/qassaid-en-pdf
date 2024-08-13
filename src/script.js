@@ -1,10 +1,10 @@
 const fs = require('fs');
 const { google } = require('googleapis');
 
-const CLIENT_ID = process.env.CLIENT_ID;
-const CLIENT_SECRET = process.env.CLIENT_SECRET;
-const REDIRECT_URI = process.env.REDIRECT_URI;
-const REFRESH_TOKEN = process.env.REFRESH_TOKEN;
+const CLIENT_ID = process.env.REACT_APP_CLIENT_ID;
+const CLIENT_SECRET = process.env.REACT_APP_CLIENT_SECRET;
+const REDIRECT_URI = process.env.REACT_APP_REDIRECT_URI;
+const REFRESH_TOKEN = process.env.REACT_APP_REFRESH_TOKEN;
 
 // Authentification avec OAuth2
 const oauth2Client = new google.auth.OAuth2(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI);
