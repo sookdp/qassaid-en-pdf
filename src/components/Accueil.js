@@ -17,10 +17,10 @@ const Accueil = () => {
                     <span className="font-bold">Qassaïd</span>. Que vous soyez à la recherche de textes sacrés, d'ouvrages pour approfondir vos connaissances ou de poésie spirituelle, notre bibliothèque numérique est à votre disposition pour enrichir votre quête intellectuelle et spirituelle. Explorez, téléchargez et laissez-vous inspirer par la richesse de notre patrimoine culturel.
                 </p>
                 <div className="mt-3 flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4 w-full">
-                    <a href="/src/components/Qassaid" className="bg-white text-black px-6 py-auto rounded-xl w-64 h-12 md:mr-4 transition-all duration-300 hover:scale-110 flex items-center justify-center">
+                    <a href="/qassaid" className="bg-white text-black px-6 py-auto rounded-xl w-64 h-12 md:mr-4 transition-all duration-300 hover:scale-110 flex items-center justify-center">
                         Découvrir les qassaïd
                     </a>
-                    <a href="/src/components/Livres" className="bg-white text-black px-6 py-auto rounded-xl w-64 h-12 transition-all duration-300 hover:scale-110 flex items-center justify-center">
+                    <a href="/livres" className="bg-white text-black px-6 py-auto rounded-xl w-64 h-12 transition-all duration-300 hover:scale-110 flex items-center justify-center">
                         Découvrir les textes en français
                     </a>
                 </div>
